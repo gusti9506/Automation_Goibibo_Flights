@@ -1,0 +1,18 @@
+steps/Hooks.java
+ steps.Hooks
+pages/GoibiboPage.java
+ pages.GoibiboPage
+pages/BasePage.java
+ pages.BasePage
+testrunner/runner.java
+ testrunner.runner
+steps/StepsGoibibo.java
+ steps.StepsGoibibo
+pages/AcadiaPage.java
+ pages.AcadiaPage
+utilities/DatosExcel.java
+ utilities.DatosExcel
+utilities/CapturaEvidencia.java
+ utilities.CapturaEvidencia
+steps/tests.java
+ steps.tests
