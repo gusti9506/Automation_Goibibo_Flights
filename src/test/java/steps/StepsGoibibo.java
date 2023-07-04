@@ -22,4 +22,14 @@ public class StepsGoibibo {
         goibibo.listAllTwo();
 
     }
+    @And("The user select first day$")
+    public void the_user_select_day_one() throws InterruptedException {
+        goibibo.clickDayOn();
+
+    }
+    @And("The user click in return day$")
+    public void the_user_select_day_two() throws InterruptedException {
+        goibibo.clickReturnDay();
+
+    }
 }

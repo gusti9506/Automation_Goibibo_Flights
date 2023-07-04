@@ -14,6 +14,7 @@ public class BasePage {
     public static WebDriver driver;
     private static WebDriverWait wait;
 
+
     static {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--remote-allow-origins=*", "incognito");
@@ -41,19 +42,26 @@ public class BasePage {
 
 
 
-    // ********************** Metodos para busqueda en "Google" ****************************
+    // ********************** Metodos para "Goibibo" ****************************
+    public void closeAlerts(String locator) {
+        Element(locator).click();
+    }
     public void clickCity(String locator) {
         Element(locator).click();
     }
     public void enterCity(String locator, String city){
         Element(locator).sendKeys(city);
-
     }
-    public void closeAlerts(String locator) {
+
+    /*public void selectDayOne(String locator) {
+        Element(locator).click();
+    }*/
+    public void returnDay(String locator) {
         Element(locator).click();
     }
-
-
+    public void buttomDone(String locator) {
+        Element(locator).click();
+    }
 
 
 

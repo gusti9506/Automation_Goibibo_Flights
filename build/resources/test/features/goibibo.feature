@@ -1,12 +1,37 @@
-@Test1
-Feature: Automation functionality search city of 'Goibibo'
+
+Feature: Page automation flight website main 'Goibibo'
     As a user I want to be able to select a flight with all the details to make the reservation.
 
     @TestGoibibo
-    Scenario: Make the selectcity now
+    Scenario: The user searches for a flight
         Given The user is positioned on the web
         When The user search city From
         And The user search city To
+        And The user select first day
+        And The user click in return day
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     @TestAcadia

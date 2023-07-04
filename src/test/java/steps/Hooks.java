@@ -20,7 +20,7 @@ public class Hooks extends BasePage {
     @After
     public void tearDown(Scenario scenario) throws IOException, InvalidFormatException, InterruptedException {
         String scenryName = scenario.getName();
-        CapturaEvidencia.capturarPantallaEnDocumento(driver, dirEvidencias + "ScreenShoot.png", nombreDocumento, "Seleccion de 'Paros, Greece' y 'Madrid, Spain' de las listas desplegadas");
+        CapturaEvidencia.capturarPantallaEnDocumento(driver, dirEvidencias + "ScreenShoot.png", nombreDocumento, "Seleccion de 'Paros, Greece' y 'Madrid, Spain' de las listas desplegadas y las fechas de salida y retorno!! ");
 
         if(scenario.isFailed()){
             final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
